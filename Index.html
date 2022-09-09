@@ -2,29 +2,32 @@
 <html>
 <head>
     <title>Portafolio</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <nav>
-        <b><a href="#sobre mi">Sobre mi</a></b>
-        <b><a href="#conocimientos">conocimientos</a></b>
-        <b><a href="#contacto">Contacto</a></b>
-    </nav>
     <header>
-        <h1>Bracco Agustin Alejandro</h1>
-        <img src="img/Agustin.png"/>
-        <br>
-        <b>Nacionalidad:</b> <img src="img/Argentina.png"/>
-        <br>
-        <b>Edad: 25 Años</b>
-        <br>
-        <b>Localidad: La Rioja, Capital</b>
-        <br>
-        <img src="img/Linkedin.jpg"/>
-        <img src="img/GitHub.png"/>
-        <img src="img/Facebook.png"/>
+        <nav class="navegacion">
+             <ul>
+                <li><a href="#sobre mi">Sobre mi</a></li>
+                <li><a href="#conocimientos">conocimientos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    
     <section>
+        <h1>Bracco Agustín Alejandro</h1>
+        <img class="foto" alt="Agustín Bracco" src="img/Agustin.png"/>
+        <div class="info-personal">
+            <p>Nacionalidad: <img class="bandera" alt="Bandera de Argentina" src="img/Argentina.png"/></p>
+            <p>Edad: 25 Años</p>
+            <p>Localidad: La Rioja, Capital</p>
+            <img class="redes" alt="Logo de Linkedin" src="img/Linkedin.jpg"/>
+            <img class="redes" alt="Logo de GitHub" src="img/GitHub.png"/>
+            <img class="redes" alt="Logo de Facebook" src="img/Facebook.png"/>
+        </div>
+    </section>
+    <section class="info">
         <a name="sobre mi"><h2>Sobre mi</h2></a>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis pariatur sunt eveniet ullam, numquam odio ducimus. Voluptas quae maiores, obcaecati officiis dolores ipsum iste. Delectus ex ipsa ipsum architecto quo.
@@ -34,12 +37,12 @@
 
         </p>
     </section>
-    <section>
+    <section class="conocimiento">
         <a name="conocimientos"><h2>Conocimientos</h2></a>
-        <img src="img/python.jpg"/>
-        <img src="img/HTML.jpg"/>
-        <img src="img/CSS.png"/>
-        <img src="img/GIT.png"/>
+        <img class="skill" alt="Logo de Python" src="img/python.jpg"/>
+        <img class="skill" alt="Logo de HTML" src="img/HTML.jpg"/>
+        <img class="skill" alt="Logo de CSS" src="img/CSS.png"/>
+        <img class="skill" alt="Logo de Git" src="img/GIT.png"/>
         
     </section>
     <footer>
