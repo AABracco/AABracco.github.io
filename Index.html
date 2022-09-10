@@ -15,17 +15,26 @@
             </ul>
         </nav>
     </header>
-    <section>
-        <h1>Bracco Agustín Alejandro</h1>
-        <img class="foto" alt="Agustín Bracco" src="img/Agustin.png"/>
-        <div class="info-personal">
-            <p>Nacionalidad: <img class="bandera" alt="Bandera de Argentina" src="img/Argentina.png"/></p>
-            <p>Edad: 25 Años</p>
-            <p>Localidad: La Rioja, Capital</p>
-            <img class="redes" alt="Logo de Linkedin" src="img/Linkedin.jpg"/>
-            <img class="redes" alt="Logo de GitHub" src="img/GitHub.png"/>
-            <img class="redes" alt="Logo de Facebook" src="img/Facebook.png"/>
-        </div>
+    <section class="info-personal">
+        <aside class="info-personal-img">
+            <div class="imgpersonal">
+                <img alt="Agustín Bracco" src="img/Agustin.png"/>
+            </div>
+            <div class="redes">
+                <img alt="Logo de Linkedin" src="img/linkedin-icon.png"/>
+                <img alt="Logo de GitHub" src="img/github-icon.png"/>
+            </div>
+        </aside>
+        <article class="info-personal-text">
+            <div class="bandera">
+                <img alt="Bandera de Argentina" src="img/Argentina.png"/>
+            </div>
+            <div class="text">
+                <p>Nombre: Bracco Agustín Alejandro</p>
+                <p>Edad: 25 Años</p>
+                <p>Localidad: La Rioja, Capital</p>
+            </div>
+        </article>
     </section>
     <section class="info">
         <a name="sobre mi"><h2>Sobre mi</h2></a>
@@ -34,27 +43,25 @@
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro nobis officiis facilis vitae culpa hic. Eaque corrupti velit rerum nihil ex, alias, eos, voluptatum vel illo laudantium non in praesentium.
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet obcaecati corporis explicabo ducimus nostrum ea exercitationem dolores, molestias, possimus maiores fuga. Eius cum numquam facilis at dolorem, aliquid nostrum provident?
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aut totam sed id pariatur labore culpa dolor unde officiis consequuntur alias mollitia saepe exercitationem, incidunt eos veritatis temporibus porro a!
-
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ad repudiandae debitis atque quisquam pariatur totam itaque. Labore omnis porro sed fugit, sint, quibusdam obcaecati ipsam voluptatem suscipit ad magnam!Lorem
         </p>
     </section>
     <section class="conocimiento">
-        <a name="conocimientos"><h2>Conocimientos</h2></a>
-        <img class="skill" alt="Logo de Python" src="img/python.jpg"/>
-        <img class="skill" alt="Logo de HTML" src="img/HTML.jpg"/>
-        <img class="skill" alt="Logo de CSS" src="img/CSS.png"/>
-        <img class="skill" alt="Logo de Git" src="img/GIT.png"/>
-        
+            <a name="conocimientos"><h2>Conocimientos</h2></a>
+            <div class="skill">
+                <img alt="Logo de Python" src="img/python-icon.png"/>
+                <img alt="Logo de HTML" src="img/HTML-icon.png"/>
+                <img alt="Logo de CSS" src="img/CSS-icon.png"/>
+                <img alt="Logo de Git" src="img/git-Icon.png"/>
+            </div>
     </section>
     <footer>
         <h2><a name="contacto">Contacto</a></h2>
         <form action="https://formsubmit.co/agustinbracco174@gmail.com" method="post">
-            
             <input placeholder="Nombre" type="text" name="nombre" id="nombre" required/>
             <br/>
-            
             <input placeholder="Email" type="email" name="email" id="email" required/>
             <br/>
-            
             <textarea placeholder="Ingrese un mensaje" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
             <br/>
             <input type="submit" value="Enviar"/>
